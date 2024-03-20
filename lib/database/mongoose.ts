@@ -1,7 +1,7 @@
 import mongoose, { Mongoose } from 'mongoose';
 
 const MONGODB_URL = process.env.MONGODB_URL;
-//Serverless Architecture Connection between MongoDB and NextJS
+
 interface MongooseConnection {
   conn: Mongoose | null;
   promise: Promise<Mongoose> | null;
